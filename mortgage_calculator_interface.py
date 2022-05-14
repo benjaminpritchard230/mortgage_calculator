@@ -30,10 +30,8 @@ term_label = Label(root, text='Term length in years')
 deposit_label = Label(root, text='Deposit amount')
 interest_label = Label(root, text='Interest rate in %')
 
-
 # Define buttons
 but_calculate = Button(root, text='Calculate monthly payment', padx=91, pady=20, command=button_calculate)
-
 
 # Layout of entry boxes
 property_box.grid(row=0, column=1)
@@ -43,18 +41,13 @@ interest_box.grid(row=3, column=1)
 monthly_box.grid(row=4, columnspan=2)
 total_cost_box.grid(row=5, columnspan=2)
 
-
 # Layout of labels
 property_label.grid(row=0, column=0)
 term_label.grid(row=1, column=0)
 deposit_label.grid(row=2, column=0)
 interest_label.grid(row=3, column=0)
 
-
 # Layout of buttons
 but_calculate.grid(row=6, columnspan=2)
-
-
-
 
 root.mainloop()
